@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="container">
+    <h1>WEATHER</h1>
+    <p>The low is <%= weather.low %> degrees Farenheit</p>
+    <p>The high is <%= weather.high %> degrees Farenheit</p>
+    <p>The temp is <%= weather.temp %> degrees Farenheit</p>
+    <p>The temp it feels like is <%= weather.feelsLike %> degrees Farenheit</p>
+    <p>The wind speed is <%= weather.windSpeed %>mph</p>
+    <p>The percent chance of rain is <%= weather.pop*100 %>%</p>
+    <p>The humidity is <%= weather.humidity %></p>
+  </div>
+  <h2>In this project we use the ml5 library to classifiy iris species' using sepal and petal data.</h2>
+  <h3>Enter the values below to guess the iris species</h3>
+  <!--     <form name='valform' method='POST' action="#"> -->
+  Sepal Length:<br>
+  <input class="sl" type="text" name="sepal_length">
+  <br><br>
+  Sepal Width:<br>
+  <input class="sw" type="text" name="sepal_width">
+  <br><br>
+  Petal Length:<br>
+  <input class="pl" type="text" name="petal_length">
+  <br><br>
+  Petal Width:<br>
+  <input class="pw" type="text" name="petal_width">
+  <br>
+  <input class='submit' onclick='submit()' type="button" value="Submit">
+  <!-- </form>  -->
+</body>
+<script>
+  var low = <%= weather.low %>;
+  var high = <%= weather.high %>;
+  var temp = <%= weather.temp %>;
+  var feelsLike = <%= weather.feelsLike %>;
+  var windSpeed = <%= weather.windSpeed %>;
+  var pop = <%= weather.pop %>;
+  var humidity = <%= weather.humidity %>;
+  let dataToProcess = {
+  'low': low,
+  'high': high,
+  'temp': temp,
+  'feelsLike': feelsLike,
+  'windSpeed': windSpeed,
+  'pop': pop,
+  'humidity': humidity
+  };
+</script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<script src='/js/theMachine.js'></script>
+
+</html>
