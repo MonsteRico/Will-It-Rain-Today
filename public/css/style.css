@@ -17,6 +17,21 @@ cursive;
   font-size:80px;
 }
 
+p {
+  font-family: 'Bebas Neue', cursive;
+  font-size:32px;
+}
+
+.subTitle {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+}
+
+.fullTitle {
+  font-family:'Bebas Neue', cursive;
+  font-size:64px;
+}
+
 .subAnswer {
   font-family: 'Luckiest Guy',
     cursive;
