@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="blue">
+<body id="body" class="blue">
   <div class="container-fluid">
     <div class="mt-5 row">
       <h1 class="black title text-center col-12">WILL IT RAIN TODAY?</h1>
@@ -84,6 +84,8 @@
       case "yes":
         document.getElementById("rainResult").innerHTML = 'YES';
         document.getElementById("rainResult").classList.add('green');
+        document.getElementById("body").style.backgroundImage = "url('images/rain.png')";
+        document.getElementById("body").style.backgroundBlendMode = 'multiply';
         break;
       case "no":
         document.getElementById("rainResult").innerHTML = 'NO';
