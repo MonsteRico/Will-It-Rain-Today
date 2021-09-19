@@ -1,0 +1,91 @@
+[{
+  "low": 72.54,
+  "high": 79.25,
+  "temp": 74.46,
+  "feelsLike": 75.64,
+  "windSpeed": 10.64,
+  "pop": 0.17,
+  "humidity": 51,
+  "output": "no nice"
+}, {
+  "low": 69.52,
+  "high": 74.74,
+  "temp": 72.45,
+  "feelsLike": 70.75,
+  "windSpeed": 24.51,
+  "pop": 0.97,
+  "humidity": 72,
+  "output": "yes none"
+}, {
+  "low": 65.45,
+  "high": 74.7,
+  "temp": 72.7,
+  "feelsLike": 73.94,
+  "windSpeed": 4.57,
+  "pop": 1,
+  "humidity": 95,
+  "output": "yes hot"
+}, {
+  "low": 37.31,
+  "high": 57.42,
+  "temp": 54.78,
+  "feelsLike": 53.57,
+  "windSpeed": 12.34,
+  "pop": 0.43,
+  "humidity": 34,
+  "output": "maybe cold"
+}, {
+  "low": 79.68,
+  "high": 86.87,
+  "temp": 75.83,
+  "feelsLike": 77.67,
+  "windSpeed": 3.76,
+  "pop": 0.72,
+  "humidity": 67,
+  "output": "maybe hot"
+}, {
+  "low": 38,
+  "high": 52,
+  "temp": 48,
+  "feelsLike": 47,
+  "windSpeed": 5,
+  "pop": 0.25,
+  "humidity": 48,
+  "output": "no cold"
+}, {
+  "low": 81,
+  "high": 95,
+  "temp": 94,
+  "feelsLike": 102,
+  "windSpeed": 1.4,
+  "pop": 0,
+  "humidity": 84,
+  "output": "no hot"
+}, {
+  "low": 32,
+  "high": 47,
+  "temp": 42,
+  "feelsLike": 40,
+  "windSpeed": 13.47,
+  "pop": 0.85,
+  "humidity": 37,
+  "output": "yes cold"
+}, {
+  "low": 72,
+  "high": 78,
+  "temp": 75,
+  "feelsLike": 74,
+  "windSpeed": 14.77,
+  "pop": 0.54,
+  "humidity": 44,
+  "output": "maybe nice"
+}, {
+  "low": 65.39,
+  "high": 85.91,
+  "temp": 85.3,
+  "feelsLike": 86.38,
+  "windSpeed": 3.6,
+  "pop": 0,
+  "humidity": 48,
+  "output": "no hot"
+}]

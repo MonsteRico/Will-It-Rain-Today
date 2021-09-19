@@ -1,0 +1,51 @@
+/*
+font-family: Bebas Neue,
+cursive;
+font-family: Luckiest Guy,
+cursive;
+*/
+.title {
+  font-family: 'Luckiest Guy',
+  cursive;
+  font-size: 100px;;
+}
+
+.answer {
+  padding-top:2em;
+  font-family: 'Luckiest Guy',
+  cursive;
+  font-size:80px;
+}
+
+.subAnswer {
+  font-family: 'Luckiest Guy',
+    cursive;
+  font-size: 40px;
+}
+
+
+.green {
+  color:#00af54
+}
+
+.black {
+  color: #1c110a
+}
+
+.yellow {
+  color: #ffd639
+}
+
+.wrongButton {
+  background-color: #ffd639 !important;
+  font-family: 'Bebas Neue', cursive;
+  font-size:32px !important
+}
+
+.red {
+  color:#fb3640
+}
+
+.blue {
+  background-color: #007cbe;
+}
